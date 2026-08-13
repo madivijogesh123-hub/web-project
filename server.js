@@ -1,10 +1,12 @@
 const express = require('express');
 const app=express();
 
-const port=8080
+const port=process.env.PORT || 8081
+
+app.use(express.static("frontend"))
 
 app.listen(port,function(){ 
-    console.log("app is runnig it https://localhost:"+port)
+    console.log("app is runnig it http://localhost:"+port)
 })
 
 
