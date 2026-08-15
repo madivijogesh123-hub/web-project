@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/madivijogesh123-hub/web-project/issues"
   },
-  "homepage": "https://github.com/madivijogesh123-hub/web-project#readme"
+  "homepage": "https://github.com/madivijogesh123-hub/web-project#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
 }
